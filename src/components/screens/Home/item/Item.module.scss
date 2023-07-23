@@ -1,0 +1,72 @@
+.check{
+    background: #5e6c84;
+    border-radius: .3rem;
+}
+.trashIcon{
+    background: none;
+    cursor: pointer;
+}
+.checkBox{
+    border: 3px solid #5e6c84;
+    border-radius: .6rem;
+    width: 2.2em;
+    height: 1.8rem;
+    margin-right: 8px;
+}
+.Item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    margin-bottom: 8px;
+    background: #4a5568;
+    border-radius: .3rem;
+    padding: 16px;
+}
+.InputParent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    //margin-bottom: 8px;
+    border: 1px solid #4a5568;
+    border-radius: .3rem;
+    padding: 8px;
+
+}
+input{
+    color: #ffffff;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.ItemContent{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    background: none;
+    cursor: pointer;
+}
+.complete{
+    //color: rgb(144, 144, 144) ;
+    text-decoration: line-through;
+}
+
+.addTaskBth{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border: 3px solid #5e6c84;
+    border-radius: .6rem;
+    width: 2.2em;
+    height: 1.8rem;
+    margin-right: 8px;
+    margin-left: 8px;
+    background: none;
+}
